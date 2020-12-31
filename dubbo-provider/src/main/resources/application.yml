@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: dubbo-provider
+server:
+  port: 7070
+request:
+  service:
+    version: 1.0.0
+dubbo:
+  scan:
+    basePackages: com.xx.dubbo.provider.service
+  application:
+    id: dubbo-provider
+    name: dubbo-provider
+  protocol:
+    id: dubbo
+    name: dubbo
+    port: 12345
+    status: server
+  registry:
+    id: zookeeper
+    address: zookeeper://47.98.246.225:2181
+
