@@ -40,3 +40,8 @@ hs_err_pid*
 ### IDEA Files
 .idea/
 *.iml
+dubbo-api/src/main/resources/
+dubbo-api/src/test/
+dubbo-consumer/src/test/
+dubbo-provider/src/test/
+rose-jade-demo/src/test/
