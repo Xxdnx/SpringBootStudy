@@ -6,11 +6,9 @@
         <groupId>com.xx</groupId>
         <artifactId>study</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath/>
     </parent>
 
     <artifactId>web-server</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <name>web-server</name>
     <description>Demo project for Spring Boot</description>
 
@@ -29,12 +27,12 @@
         </dependency>
     </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
+<!--    <build>-->
+<!--        <plugins>-->
+<!--            <plugin>-->
+<!--                <groupId>org.springframework.boot</groupId>-->
+<!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
+<!--            </plugin>-->
+<!--        </plugins>-->
+<!--    </build>-->
 </project>
